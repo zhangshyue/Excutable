@@ -20,7 +20,6 @@ def extract():
         print_files(dir_name)
 
 def print_files(dir_name):
-    print(find_files(dir_name))
     for fname in find_files(dir_name):
         fpath = os.path.join(dir_name, fname)
         if os.path.isdir(fpath):

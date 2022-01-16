@@ -1,0 +1,3 @@
+[console_scripts]
+list_file = listFile.list_file:extract
+
