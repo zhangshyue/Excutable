@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+listAllTheFile.egg-info/PKG-INFO
+listAllTheFile.egg-info/SOURCES.txt
+listAllTheFile.egg-info/dependency_links.txt
+listAllTheFile.egg-info/entry_points.txt
+listAllTheFile.egg-info/top_level.txt
+listFile/__init__.py
+listFile/__main__.py
+listFile/list_file.py
