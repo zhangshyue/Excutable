@@ -14,7 +14,10 @@ def find_files(dir_name):
     
 def extract():
     dir_name = sys.argv[1]
-    print_files(dir_name)
+    if os.path.isfile(dir_name):
+        print(dir_name)
+    else:
+        print_files(dir_name)
 
 def print_files(dir_name):
     print(find_files(dir_name))
